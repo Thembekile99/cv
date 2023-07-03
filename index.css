@@ -1,0 +1,334 @@
+ /* Style buttons */
+
+
+
+ :root {
+     --pink: pink;
+ }
+
+
+ ::selection {
+     background: var(pink);
+     color: pink;
+ }
+
+ html {
+     font-size: 62.5%;
+     overflow-x: hidden;
+ }
+
+
+
+
+ body {
+     background: rgb(88, 89, 90);
+     overflow-x: hidden;
+     padding-left: 35rem;
+
+
+
+ }
+
+ section {
+     min-height: 100vh;
+     padding: 1rem;
+
+ }
+
+ .btn {
+     padding: 1rem 8rem;
+     background: #333333;
+     color: #fff;
+     cursor: pointer;
+     margin-top: 2rem;
+     font-size: 2rem;
+     border-radius: 5rem;
+ }
+
+ .heading {
+     text-align: center;
+     margin: 0, 6rem;
+     font-size: 4rem;
+     padding: 1rem;
+     border-bottom: .1rem solid rgba(94, 88, 88, 0.267);
+     color: #fff;
+
+ }
+
+ .heading span {
+     color: rgb(105, 132, 186);
+ }
+
+ header {
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 1000;
+     height: 100%;
+     width: 34rem;
+     background: rgb(143, 153, 170);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-flow: column;
+     text-align: center;
+ }
+
+ header .user img {
+     height: 17rem;
+     width: 17rem;
+     border-radius: 50%;
+     object-fit: cover;
+     margin-bottom: 1rem;
+     border: .7rem solid rgb(237, 236, 236)
+ }
+
+ header .user .name {
+     font-size: 3.4rem;
+     color: #fff;
+ }
+
+ header .user .post {
+     font-size: 2.5rem;
+     color: #eee;
+ }
+
+ header.navbar {
+     width: 100%;
+ }
+
+ header.navbar ul {
+     list-style: none;
+     padding: 1rem 3rem
+ }
+
+ header .navbar ul a {
+     display: block;
+     padding: 2rem 11rem;
+     margin: 2rem 0;
+     background-color: #494949;
+     color: #fff;
+     font-size: 2rem;
+     border-radius: 5rem;
+
+
+ }
+
+ header .navbar ul a:hover {
+     background-color: var(pink);
+ }
+
+
+
+
+ .home {
+     display: flex;
+     justify-content: center;
+     flex-flow: column;
+     padding: 0 15rem;
+ }
+
+ .home h3 {
+     font-size: 2.5rem;
+     color: #fff;
+ }
+
+ .home p {
+     font-size: 2rem;
+     color: #fff;
+     padding: 1rem 0;
+ }
+
+ .about .row {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     padding: 1rem 0rem;
+ }
+
+ .about .row .info {
+     flex: 1 1 48rem;
+     padding: 2rem 1rem;
+     padding-left: 6rem;
+ }
+
+ .about .row .info h3 {
+     font-size: 2rem;
+     color: rgb(245, 241, 245);
+     padding: 1rem o;
+     font-weight: normal;
+ }
+
+ .about .row .counter {
+     flex: 1 148rem;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+
+ }
+
+ .about .row .info h3 span {
+     color: #eee;
+     padding: 0.5rem;
+     font-size: 20px;
+
+ }
+
+ .about .row .counter .box {
+     width: 20rem;
+     background: #222;
+     text-align: center;
+     padding: 2rem;
+     margin: 2rem;
+ }
+
+ .about .row .counter .box span {
+     font-size: 4rem;
+     color: rgb(142, 172, 224);
+
+ }
+
+ .about .row .counter .box h3 {
+     font-size: 1rem;
+     color: #fff;
+
+ }
+
+ .heading {
+     margin: 0.3rem;
+ }
+
+ .education .box-container {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     font-size: 32px;
+     padding: 1rem 0;
+     padding-left: 3rem;
+ }
+
+ .education .box-container.box {
+     width: 27rem;
+     margin: 4rem 1rem;
+     padding-left: 4rem;
+     border-left: 2rem solid #fff;
+ }
+
+ .education .box-container .box span {
+     font-size: 1.3rem;
+     background-color: rgb(143, 153, 170);
+     color: #fff;
+     border-radius: 4rem;
+     padding: 5rem 5rem;
+
+ }
+
+ .education .box-container .box h3 {
+     font-size: 2rem;
+     color: #fff;
+     padding-top: 1.5rem;
+ }
+
+ .education .box-container .box p {
+     font-size: 1.4rem;
+     color: #eee;
+     padding: 1rem 0;
+ }
+
+
+
+
+
+ .love {
+     background-color: rgb(143, 153, 170);
+ }
+
+ ;
+
+ .overlay {
+     width: 100%;
+     height: 100%;
+     position: fixed;
+ }
+
+ form {
+     max-width: 550px;
+     width: 90%;
+     background-color: #fff;
+     margin: 17vh auto 0 auto;
+     padding: 40px;
+     border-radius: 3px;
+     box-sizing: border-box;
+ }
+
+ h1 {
+     margin: 0;
+     text-align: center;
+ }
+
+ label {
+     display: block;
+     margin: 20px 0;
+ }
+
+ input,
+ textarea {
+     width: 100%;
+     padding: 10px;
+     box-sizing: border-box;
+     outline: none;
+     resize: none;
+     border: none;
+     border-bottom: 1px solid #d3d3d3;
+
+ }
+
+ input[type="text"]:focus,
+ textarea:focus {
+     border-bottom: 5px solid purple;
+ }
+
+ textarea ::-webkit-scrollbar {
+     width: 4px;
+ }
+
+ .center {
+    background-color: rgb(143, 153, 170) ;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+ 
+
+
+
+ button {
+     height: auto;
+     width: 5rem;
+     padding: 2%;
+     cursor: pointer;
+
+ }
+
+ .box1 a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-weight: 100;
+    font-size: 5rem;
+ }
+ .box:hover{
+border: solid 3px rgb(255, 247, 247);
+background-color: #020202;
+ }
+ .navbar ul :hover{
+    border: solid 2px beige;
+    background-color: rgb(54, 53, 53);
+ }
