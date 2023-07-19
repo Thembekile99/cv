@@ -1,17 +1,6 @@
  /* Style buttons */
 
 
-
- :root {
-     --pink: pink;
- }
-
-
- ::selection {
-     background: var(pink);
-     color: pink;
- }
-
  html {
      font-size: 62.5%;
      overflow-x: hidden;
@@ -24,21 +13,24 @@
      background: rgb(88, 89, 90);
      overflow-x: hidden;
      padding-left: 35rem;
-
+     background-image: url(Pictures/iiiio.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+background-position: center;
 
 
  }
 
  section {
-     min-height: 100vh;
+     min-height: 80vh;
      padding: 1rem;
 
  }
 
  .btn {
      padding: 1rem 8rem;
-     background: #333333;
-     color: #fff;
+     background: #34416091;
+     color: #e6e9ee;
      cursor: pointer;
      margin-top: 2rem;
      font-size: 2rem;
@@ -66,12 +58,14 @@
      z-index: 1000;
      height: 100%;
      width: 34rem;
-     background: rgb(143, 153, 170);
+     background: rgb(76 91 118);
+
      display: flex;
      align-items: center;
      justify-content: center;
      flex-flow: column;
      text-align: center;
+     box-shadow: 0 0 5px 4px #1e2340;
  }
 
  header .user img {
@@ -80,17 +74,17 @@
      border-radius: 50%;
      object-fit: cover;
      margin-bottom: 1rem;
-     border: .7rem solid rgb(237, 236, 236)
+     border: .7rem solid rgb(30, 35, 64)
  }
 
  header .user .name {
      font-size: 3.4rem;
-     color: #fff;
+     color: #e6e9ee;
  }
 
  header .user .post {
      font-size: 2.5rem;
-     color: #eee;
+     color: #e6e9ee;
  }
 
  header.navbar {
@@ -104,23 +98,20 @@
 
  header .navbar ul a {
      display: block;
-     padding: 2rem 11rem;
-     margin: 2rem 0;
-     background-color: #494949;
-     color: #fff;
+     padding: 2rem;
+     width: 19rem;
+     margin-top: 2rem;
+     background-color: #4b5a76;
+     color: #e6e9ee;
      font-size: 2rem;
      border-radius: 5rem;
+     box-shadow: 0 0 2px 3px rgb(21, 25, 43);
+     margin-right: 5rem;
 
 
  }
 
- header .navbar ul a:hover {
-     background-color: var(pink);
- }
-
-
-
-
+ 
  .home {
      display: flex;
      justify-content: center;
@@ -130,13 +121,21 @@
 
  .home h3 {
      font-size: 2.5rem;
-     color: #fff;
+     color: #e6e9ee;
  }
 
  .home p {
      font-size: 2rem;
-     color: #fff;
-     padding: 1rem 0;
+     color: #e6e9ee;
+     padding: 3rem ;
+     height: 20rem;
+     width: 80rem;
+     border-radius: 3rem;
+     border-style: solid;
+     border-color: #1e2340;
+     box-shadow: 0 0 10px 6px #1e2340;
+     font-size: 2.5rem;
+     text-align: center;
  }
 
  .about .row {
@@ -169,7 +168,7 @@
  }
 
  .about .row .info h3 span {
-     color: #eee;
+     color: #e6e9ee;
      padding: 0.5rem;
      font-size: 20px;
 
@@ -191,7 +190,7 @@
 
  .about .row .counter .box h3 {
      font-size: 1rem;
-     color: #fff;
+     color: #e6e9ee;
 
  }
 
@@ -213,13 +212,13 @@
      width: 27rem;
      margin: 4rem 1rem;
      padding-left: 4rem;
-     border-left: 2rem solid #fff;
+     border-left: 2rem solid #e6e9ee;
  }
 
  .education .box-container .box span {
      font-size: 1.3rem;
      background-color: rgb(143, 153, 170);
-     color: #fff;
+     color: #e6e9ee;
      border-radius: 4rem;
      padding: 5rem 5rem;
 
@@ -227,13 +226,13 @@
 
  .education .box-container .box h3 {
      font-size: 2rem;
-     color: #fff;
+     color: #e6e9ee;
      padding-top: 1.5rem;
  }
 
  .education .box-container .box p {
      font-size: 1.4rem;
-     color: #eee;
+     color: #e6e9ee;
      padding: 1rem 0;
  }
 
@@ -242,10 +241,12 @@
 
 
  .love {
-     background-color: rgb(143, 153, 170);
+     background-color: #4c5b76;
+     border-radius: 3rem;
+     height: 1rem;
  }
 
- ;
+ 
 
  .overlay {
      width: 100%;
@@ -256,11 +257,12 @@
  form {
      max-width: 550px;
      width: 90%;
-     background-color: #fff;
-     margin: 17vh auto 0 auto;
+     background-color: #e6e9ee;
+     margin: 6vh auto 0 auto;
      padding: 40px;
      border-radius: 3px;
      box-sizing: border-box;
+     border-radius: 3rem;
  }
 
  h1 {
@@ -297,14 +299,15 @@
  .center {
     background-color: rgb(143, 153, 170) ;
   border: none;
-  color: white;
+  color: #e6e9ee;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  
+  font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
+  padding-bottom: 3rem;
 }
  
 
@@ -312,7 +315,7 @@
 
  button {
      height: auto;
-     width: 5rem;
+   
      padding: 2%;
      cursor: pointer;
 
@@ -324,11 +327,67 @@
     font-weight: 100;
     font-size: 5rem;
  }
- .box:hover{
-border: solid 3px rgb(255, 247, 247);
-background-color: #020202;
- }
+
  .navbar ul :hover{
-    border: solid 2px beige;
-    background-color: rgb(54, 53, 53);
+    
+    background-color: rgba(36, 34, 78, 0.401);
  }
+ hr{
+    border: 1px solid #6984ba;
+    box-shadow: 0 0 10px 3px #1e2340;
+ }
+
+
+
+
+
+ //==========>
+
+@media screen and (max-width: 600px) {  
+    header .user img {
+        height: 1rem;
+        width: 1rem;
+        border-radius: 1%;
+        object-fit: cover;
+        margin-bottom: 1rem;
+        border: .7rem solid rgb(30, 35, 64)
+    }
+   
+    header .user .name {
+        font-size: 1rem;
+        color: #e6e9ee;
+    }
+   
+    header .user .post {
+        font-size: 1rem;
+        color: #e6e9ee;
+    }
+    .home {
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        padding: 5rem;
+    }
+   
+    .home h3 {
+        font-size: 5rem;
+        color: #e6e9ee;
+    }
+   
+    .home p {
+        font-size: 2rem;
+        color: #e6e9ee;
+        padding: 3rem ;
+        height: 20rem;
+        width: 80rem;
+        border-radius: 3rem;
+        border-style: solid;
+        border-color: #1e2340;
+        box-shadow: 0 0 10px 6px #1e2340;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+  }
+
+ 
