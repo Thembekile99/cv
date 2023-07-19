@@ -341,7 +341,7 @@ background-position: center;
 
 
 
- //==========>
+ /* //==========>  */
 
 @media screen and (max-width: 600px) {  
     header .user img {
